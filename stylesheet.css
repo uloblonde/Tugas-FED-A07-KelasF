@@ -24,7 +24,7 @@ a {
 
 .top-wrapper {
   padding: 250px 0 250px 0;
-  background-image: url(img/pantai2.jpg);
+  background-image: url("img/pantai2.jpg");
   background-size: cover;
   color: white;
 }
