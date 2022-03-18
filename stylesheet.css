@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 * {
   box-sizing: border-box;
   font-family: 'Comfortaa', sans-serif;
@@ -152,33 +152,30 @@ img {
   top: 7px;
   box-shadow: none;
 }
-footer {
+.footer {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: black;
-  text-align: center;
-}
-
-.footer-left h1 {
-  font-size: 26px;
-  color: white;
-  padding: 0px 0px 0px 0px;
-  font-family: 'Comfortaa', sans-serif;
+  display: flex;
 }
 
 .footer-left {
-  float: left;
+  
 }
-.footer-right li{
-  color: #b3aeb5;
-  font-size: 12px;
-  text-align:right;
-  line-height:30px;
-  list-style-type:none;
+.footer-right{
+  
+}
+.bawahnya{
+  background-color: black;
+  text-align: center;
+  width: 100%;
 }
 footer p {
   color: #b3aeb5;
   font-size: 12px;
+  margin: 0;
+  padding-bottom: 20px;
+  width: 100%;
 }
 .contactus{
   padding-top: 5px;
